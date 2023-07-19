@@ -16,29 +16,36 @@
           if(nm.value == ""){
               alert("Please enter name first.");
               nm.focus();
+              return false;
           }
           else if(age.value == ""){
               alert("Please enter your age");
               age.focus();
+              return false;
           }
           else if(isNaN(age.value)){
               alert("Please enter your age in numbers")
+              return false;
           }
           else if(age.value > 50){
             alert("Please enter your age between 1-50");
+            return false;
           }
           else{
               alert("hello "+nm.value+" Your age is "+age.value);
+              return true;
           }
         }
     </script>
   </head>
   <body>
-    name:<input type="text" id="nm" />
-    <br />
-    Age:<input type="text" id="age" />
-    <br />
-    city (dropdown) hobbies (checkbox) gender (radio)
-    <button onclick="sayHello()">Say Hello</button>
+    <form action="1.php">
+      name:<input type="text" id="nm" />
+      <br />
+      Age:<input type="text" id="age" />
+      <br />
+      city (dropdown) hobbies (checkbox) gender (radio)
+      <button onclick="return sayHello()">Say Hello</button>
+    </form>
   </body>
 </html>
