@@ -1,0 +1,16 @@
+Selectors
+Annonymous functions
+readymade methods
+
+
+Selectors:
+$("#box) - by id selection
+$(".box) - by class selection
+$("div") - by element selection 
+
+Annonymous functions:
+a function without a name.
+ex-
+function(){}
+
+readymade methods: inbuild functions 
