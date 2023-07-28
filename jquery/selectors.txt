@@ -1,0 +1,38 @@
+﻿*:first	$("p:first")	The first <p> element
+*:last	$("p:last")	The last <p> element
+*:even	$("tr:even")	All even <tr> elements
+*:odd	$("tr:odd")	All odd <tr> elements
+ 	 	 
+:first-child	$("p:first-child")	All <p> elements that are the first child of their parent
+:nth-child(n)	$("p:nth-child(2)")	All <p> elements that are the 2nd child of their parent
+ 	 	 
+*parent > child	$("div > p")	All <p> elements that are a direct child of a <div> element
+parent descendant	$("div p")	All <p> elements that are descendants of a <div> element
+element + next	$("div + p")	The <p> element that are next to each <div> elements
+element ~ siblings	$("div ~ p")	All <p> elements that appear after the <div> element
+ 	 	 
+:eq(index)	$("ul li:eq(3)")	The fourth element in a list (index starts at 0)
+:gt(no)	$("ul li:gt(3)")	List elements with an index greater than 3
+ 	 	 
+ 	 	 
+*[attribute]	$("[href]")	All elements with a href attribute
+[attribute=value]	$("[href='default.htm']")	All elements with a href attribute value equal to "default.htm"
+[attribute!=value]	$("[href!='default.htm']")	All elements with a href attribute value not equal to "default.htm"
+
+**** 	 	 
+:input	$(":input")	All input elements
+
+:text	$(":text")	All input elements with type="text"
+:password	$(":password")	All input elements with type="password"
+:radio	$(":radio")	All input elements with type="radio"
+:checkbox	$(":checkbox")	All input elements with type="checkbox"
+:submit	$(":submit")	All input elements with type="submit"
+:reset	$(":reset")	All input elements with type="reset"
+:button	$(":button")	All input elements with type="button"
+:image	$(":image")	All input elements with type="image"
+:file	$(":file")	All input elements with type="file"
+
+:enabled	$(":enabled")	All enabled input elements
+:disabled	$(":disabled")	All disabled input elements
+:selected	$(":selected")	All selected input elements
+:checked	$(":checked")	All checked input elements

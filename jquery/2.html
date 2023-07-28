@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .box {
+        background-color: red;
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <b>bold 1</b>
+    <div>
+      <b>bold 2</b>
+      <p>
+        hello this is my jquery class and i m leaning lot hello this is my
+        jquery <b>bold 3</b>
+      </p>
+      <p>
+        hello this is my jquery class and i m leaning lot hello this is my
+        jquery
+      </p>
+    </div>
+
+    <div>
+      <p>
+        hello this is my jquery class and i m leaning lot hello this is my
+        jquery
+        <b>bold 4</b>
+      </p>
+      <p>
+        hello this is my jquery class and i m leaning lot hello this is my
+        jquery
+      </p>
+    </div>
+    <b>bold 5</b>
+    <p>
+      hello this is my jquery class and i m leaning lot hello this is my jquery
+    </p>
+    <p>
+      hello this is my jquery class and i m leaning lot hello this is my jquery
+    </p>
+
+    <hr />
+    <button id="btn">Apply</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script lang="javascript">
+      $("document").ready(function(){
+
+        $("#btn").click(function(){
+            // $("p:odd").css("background","#ff0");
+            // $("p:first-child").css("background","#ff0");
+            // $("div  b").css("background","#ff0");
+            // $("div ").toggleClass("box");
+            // $("div").after("<hr>");
+            // $("div").append("<i>testing</i>");
+            // $("div").prepend("<i>testing</i>");
+            // $("div").html("<i>testing</i>");
+            alert($("div").html());
+        });
+
+
+      });
+    </script>
+  </body>
+</html>

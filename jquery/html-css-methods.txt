@@ -1,0 +1,16 @@
+****
+addClass()	Adds one or more class names to selected elements
+removeClass()	Removes one or more classes from selected elements
+toggleClass()	Toggles between adding/removing one or more classes from selected elements
+after()	Inserts content after selected elements
+append()	Inserts content at the end of selected elements
+prepend()	Inserts content at the beginning of selected elements
+attr()	Sets or returns attributes/values of selected elements
+before()	Inserts content before selected elements
+css()	Sets or returns one or more style properties for selected elements
+empty()	Removes all child nodes and content from selected elements
+html()	Sets or returns the content of selected elements
+text()	Sets or returns the text content of selected elements
+remove()	Removes the selected elements (including data and events)
+removeAttr()	Removes one or more attributes from selected elements
+val()	Sets or returns the value attribute of the selected elements (for form elements)

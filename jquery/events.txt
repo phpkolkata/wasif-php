@@ -1,0 +1,22 @@
+*click()	Attaches/Triggers the click event
+dblclick()	Attaches/Triggers the double click event
+
+*focus()	Attaches/Triggers the focus event
+*blur()	Attaches/Triggers the blur event
+*change()	Attaches/Triggers the change event
+*hover()	Attaches two event handlers to the hover event
+
+keydown()	Attaches/Triggers the keydown event
+keypress()	Attaches/Triggers the keypress event
+*keyup()	Attaches/Triggers the keyup event
+mousedown()	Attaches/Triggers the mousedown event
+mouseup()	Attaches/Triggers the mouseup event
+*mouseenter()	Attaches/Triggers the mouseenter event
+*mouseleave()	Attaches/Triggers the mouseleave event
+mousemove()	Attaches/Triggers the mousemove event
+
+*ready()	Specifies a function to execute when the DOM is fully loaded
+resize()	Attaches/Triggers the resize event
+scroll()	Attaches/Triggers the scroll event
+select()	Attaches/Triggers the select event
+*submit()	Attaches/Triggers the submit event

@@ -1,0 +1,10 @@
+animate()	Runs a custom animation on the selected elements
+fadeIn()	Fades in the selected elements
+fadeOut()	Fades out the selected elements
+fadeToggle()	Toggles between the fadeIn() and fadeOut() methods
+hide()	Hides the selected elements
+show()	Shows the selected elements
+slideDown()	Slides-down (shows) the selected elements
+slideToggle()	Toggles between the slideUp() and slideDown() methods
+slideUp()	Slides-up (hides) the selected elements
+toggle()	Toggles between the hide() and show() methods
