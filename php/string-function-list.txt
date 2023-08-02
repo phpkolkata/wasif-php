@@ -1,0 +1,33 @@
+•echo — d
+•explode — Split a string by string
+•implode — Join array elements with a string
+•join — Alias of implode
+
+
+•lcfirst — Make a string's first character lowercase
+•ltrim — Strip whitespace (or other characters) from the beginning of a string
+•md5 — Calculate the md5 hash of a string
+•nl2br — Inserts HTML line breaks before all newlines in a string
+•print — Output a string
+•rtrim — Strip whitespace (or other characters) from the end of a string
+•str_replace — Replace all occurrences of the search string with the replacement string
+•str_word_count — Return information about words used in a string
+•strip_tags — Strip HTML and PHP tags from a string
+•stripos — Find the position of the first occurrence of a case-insensitive substring in a string
+•stristr — Case-insensitive strstr
+•strlen — Get string length
+characters
+•strpos — Find the position of the first occurrence of a substring in a string
+substring in a string
+•strrpos — Find the position of the last occurrence of a substring in a string
+•strstr — Find the first occurrence of a string
+•strtolower — Make a string lowercase
+•strtoupper — Make a string uppercase
+•strtr — Translate characters or replace substrings
+•substr_count — Count the number of substring occurrences
+•substr_replace — Replace text within a portion of a string
+•substr — Return part of a string
+•trim — Strip whitespace (or other characters) from the beginning and end of a string
+•ucfirst — Make a string's first character uppercase
+•ucwords — Uppercase the first character of each word in a string
+•wordwrap — Wraps a string to a given number of characters

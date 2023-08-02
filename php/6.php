@@ -39,3 +39,32 @@ if ($avg > 100) {
 
 $class = 11;
 $avg = 20;
+
+if ($class <= 5) {
+    if ($avg < 33) {
+        echo "D";
+    }if ($avg < 45) {
+        echo "C";
+    }if ($avg < 75) {
+        echo "B";
+    }if ($avg < 100) {
+        echo "A";
+    }
+    if ($avg > 100) {
+        echo "wrong input";
+    }
+} else {
+    if ($avg < 33) {
+        echo "fail";
+    }if ($avg < 45) {
+        echo "3rd";
+    }if ($avg < 75) {
+        echo "2nd";
+    }if ($avg < 100) {
+        echo "1st";
+    }
+    if ($avg > 100) {
+        echo "wrong input";
+    }
+
+}
