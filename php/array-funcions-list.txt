@@ -1,0 +1,22 @@
+•array_combine — Creates an array by using one array for keys and another for its values
+•array_count_values — Counts all the values of an array
+•array_key_exists — Checks if the given key or index exists in the array
+•array_keys — Return all the keys or a subset of the keys of an array
+•array_merge — Merge one or more arrays
+•array_pop — Pop the element off the end of array
+•array_push — Push one or more elements onto the end of array
+•array_rand — Pick one or more random entries out of an array
+•array_replace — Replaces elements from passed arrays into the first array
+•array_reverse — Return an array with elements in reverse order
+•array_search — Searches the array for a given value and returns the first corresponding key if successful
+•array_unique — Removes duplicate values from an array
+•array_values — Return all the values of an array
+•array — Create an array
+•arsort — Sort an array in reverse order and maintain index association
+•asort — Sort an array and maintain index association
+•count — Count all elements in an array, or something in an object
+•extract — Import variables into the current symbol table from an array
+•in_array — Checks if a value exists in an array
+•krsort — Sort an array by key in reverse order
+•ksort — Sort an array by key
+•sort — Sort an array

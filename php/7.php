@@ -39,3 +39,22 @@ $tot += 20;
 echo $tot;
 
 // hw - create a sinle function to perform any four operation as above (+,-,/,*)
+
+function calc($v1, $v2, $act = "add")
+{
+    if ($act == "add") {
+        return $v1 + $v2;
+    } else if ($act == "sub") {
+        return $v1 - $v2;
+    } else if ($act == "mul") {
+        return $v1 * $v2;
+    } else if ($act == "div") {
+        return $v1 / $v2;
+    } else {
+        return "wrong input";
+    }
+}
+
+// $tot = calc(20, 10, "mul");
+$tot = calc(20, 10);
+$tot = calc(20, 10, "sub");
