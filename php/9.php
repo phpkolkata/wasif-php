@@ -15,8 +15,17 @@ echo $week[6];
 //     echo $week[$i];
 // }
 
+print "<select>";
 for ($i = 0; $i < count($week); $i++) {
-    echo $week[$i] . "<br>";
+    echo "<option>", $week[$i], "</option>";
 }
+print "</select>";
+
+// using foreach
+print "<select>";
+foreach ($week as $w) {
+    echo "<option>", $w, "</option>";
+}
+print "</select>";
 
 // hw: bring $week array items in a dropdown
