@@ -1,0 +1,20 @@
+Get Method:
+
+    Advantage -
+        1. it creates url dependant page, so the user can bookmark, share or save for later use.
+    
+    Disadvantage - 
+        1. url becomes complex and messy
+        2. data is visible in url, so no data security/privacy
+        3. data passing limitation
+------------------
+
+Post Method:
+
+    Disadvantage -
+        1. it doesn't creates url dependant page, so the user CAN NOT bookmark, share or save for later use.
+    
+    Advantage - 
+        1. url looks clean, readable
+        2. data is NOT visible in url, it passes behind the page, so secure
+        3. data passing limitation is bigger then GET Method
