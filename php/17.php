@@ -2,9 +2,7 @@
 if (isset($_REQUEST['msg'])) {
     print "<div style='color:red'>$_REQUEST[msg]</div>";
 }
-
 ?>
-
 <!-- mandatory step to upload nay file - method="post" enctype="multipart/form-data" -->
 
 <form action="upload.php" method="post" enctype="multipart/form-data">
