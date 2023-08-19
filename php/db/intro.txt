@@ -1,0 +1,78 @@
+https://www.w3schools.com/mysql/default.asp
+
+MySQL SELECT  ***
+MySQL WHERE  ***
+MySQL AND, OR, NOT ***
+MySQL ORDER BY
+MySQL INSERT INTO  ***
+MySQL UPDATE    ***
+MySQL DELETE    ***
+MySQL LIMIT ***
+MySQL MIN and MAX
+MySQL COUNT, AVG, SUM
+MySQL LIKE  ***
+MySQL Wildcards
+MySQL IN
+MySQL BETWEEN
+MySQL Aliases
+MySQL Group BY
+MySQL Having
+
+
+-- to access mysql interface given by PHP - http://localhost/phpmyadmin
+            (user - root , pass - <BLANK>)
+
+
+ -- Table - collection of records
+ -- Database - collection of tables   
+
+
+
+
+ database: Mobile Store    (moblie_store)     
+
+TABLES:
+ Category
+ Product
+ Client
+ Order
+-------------------------------------------------------------
+
+Category:
+id
+name
+is_active(y/n)
+
+
+Product:
+id
+cat_id
+name
+price
+desc
+is_active(y/n)
+
+
+Client:
+id
+name
+email
+password
+phone
+address
+join_date
+is_active(y/n)
+
+Order:
+id
+cl_id
+pid
+price
+qnty
+order_date
+status (pending,dispatched, return, cancel)
+
+------------------------------
+
+PRIMARY KEY - Unique,not null
+FOREIGN KEY - not null
