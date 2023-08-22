@@ -1,0 +1,29 @@
+db - collection of tables
+table - collection of records
+
+
+primary - (not null, unique)
+
+
+mysql understand queries only
+
+Homework
+
+https://www.w3schools.com/sql/default.asp
+
+SQL Select Distinct
+*SQL Select
+*SQL Where
+*SQL And, Or, Not
+*SQL Order By
+*SQL Insert Into
+*SQL Update
+*SQL Delete
+SQL Null Values
+SQL Select Top
+SQL Min and Max
+SQL Count, Avg, Sum
+SQL Like
+SQL Wildcards
+SQL In
+SQL Between
