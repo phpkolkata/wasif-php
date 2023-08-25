@@ -27,8 +27,14 @@ $pages = ceil($tot / $limit);
 
 // echo $pages;
 
+// search query
+$where = '';
+if (isset($_REQUEST['srch'])) {
+    $where = " WHERE `name` like '%$_REQUEST[srch]%'";
+}
+
 // main query
-$sql = "select * from category LIMIT $start,$limit";
+$sql = "select * from category $where LIMIT $start,$limit";
 echo $sql;
 $res = mysqli_query($con, $sql);
 
@@ -36,7 +42,17 @@ if (isset($_REQUEST['msg'])) {
     print "<div class='alert alert-primary shadow w-50 mx-auto'>$_REQUEST[msg]</div>";
 }
 
-print "<table class='table table-striped w-50 mx-auto mt-5' border='1' width='400'>
+// search
+print "<div class='w-50 mx-auto mb-0'>
+<form action='cat-pagination.php' method='get'>
+<input type='search' class='form-control w-50 d-inline' name='srch' placeholder='search here....'>
+<button class='btn btn-primary d-inline'><i class='bi bi-search'></i> Search</button>
+<div class='d-inline float-end'><a href='cat-pagination.php'>Show All</a></div>
+</form>
+</div>
+";
+
+print "<table class='table table-striped w-50 mx-auto ' border='1' width='400'>
 <tr>
     <th>Id</th>
     <th>Name</th>
