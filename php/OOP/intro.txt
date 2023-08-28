@@ -1,0 +1,14 @@
+
+ Object Oriented Programming
+ 4 pillars: 
+ 1. Encapsulation 2. Inheritance 3. Polymorphism 4. Abstraction
+
+
+1. basics
+1. Inheritance
+2. visiblity
+2. constructor & destructor
+3. static
+4. method overridding
+5. abstraction
+6. Scope resolution
